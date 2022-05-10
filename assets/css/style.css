@@ -1,6 +1,47 @@
-body{
-    background-color: black;
+:root{
+    --vermelho: #E50914;
+    --branco:#ffffff;
+    --preto: #141414;
+    --cinza:#666;
 }
-h2{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    font-family: 'Arial Black', times;
+    font-size: 40px;
+    color: var(--vermelho);
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+    text-shadow: var(--branco);    
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
+footer .by{    
+    text-align: center;    
+    color: var(--branco);
 }
