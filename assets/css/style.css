@@ -24,8 +24,8 @@ header .container{
 }
 
 header .logo{
-    margin-left: 10px;
-    font-family: 'Arial Black', times;
+    margin-left: 5px;
+    font-family: 'Gotham', times;
     font-size: 40px;
     color: var(--vermelho);
 }
