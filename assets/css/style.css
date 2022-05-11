@@ -11,9 +11,11 @@
     box-sizing: border-box;
 }
 
+/*Base Project*/
 body{
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: var(--branco);
 }
 
 header .container{
@@ -44,4 +46,27 @@ header nav a:hover{
 footer .by{    
     text-align: center;    
     color: var(--branco);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*Filme Principal*/
+.titulo_principal{
+    font-size: 40px;
+}
+
+.filme_principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/assets/img/soons_of_anarch_fundo.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme_principal .sinopse_principal{
+    margin-bottom: 60px;
 }
