@@ -101,3 +101,9 @@ footer .by{
 .container .filme_principal{
     width: 60%;
 }
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
