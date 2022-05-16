@@ -1,6 +1,18 @@
-@media screen and (max-width:550px){
+@media screen and (max-width:580px){
     header .container{
         display:flex;
         flex-direction:column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+
+    }
+}
+
+@media screen and (max-width:950px) {
+    .sinopse_principal{
+        width: 80%;
     }
 }
