@@ -93,3 +93,11 @@ footer .by{
     background-color: #ffffff;
     color: var(--preto);
 }
+/* Trabalhar com containers é uma forma inteligente de manipular toda a pagina através de um único lugar, conhecido também como wrapper class */
+.container{
+    margin-left: 20px;
+}
+
+.container .filme_principal{
+    width: 60%;
+}
