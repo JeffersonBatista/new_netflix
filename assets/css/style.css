@@ -112,3 +112,28 @@ footer .by{
 .carrosel-series{
     margin-top: 10px;
 }
+
+
+
+.box{
+    display:none;
+    width: 720px;
+    height: 380px;
+    position: relative;
+    margin-left: -360px;
+    left: 50%;
+}
+
+.box iframe{
+    width: 100%;
+    position: relative;
+}
+
+.info{
+    display:none;
+    width: 720px;
+    height: 380px;
+    position: relative;
+    margin-left: -360px;
+    left: 50%;
+}
