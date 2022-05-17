@@ -131,6 +131,7 @@ footer .by{
 
 .info{
     display:none;
+    text-align: justify;
     width: 720px;
     height: 380px;
     position: relative;

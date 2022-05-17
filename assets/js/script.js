@@ -1,7 +1,7 @@
 function assistir(){
-    document.getElementsByClassName('box').style.display = 'block';
+    document.getElementById('box').style.display = 'block';
 }
 
 function informar(){
-    document.getElementsByClassName('info').style.display = 'block';
+    document.getElementById('info').style.display = 'block';
 }
